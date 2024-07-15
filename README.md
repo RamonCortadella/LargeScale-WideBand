@@ -18,9 +18,6 @@ Open the NI-MAX and check that the Daq-Card is recognized (in the Devices tab)
 Install the conda environment in the Res folder
 conda env create -f ECoGacq.yml
 
-pip install packages in the Res folder: PyQtTools, PhyREC, PyGFETdb
-go in the path where the setup.py file is found for each of the packages and execute the following command
-pip install .
 
 Launch the GUI for the acquisition of calibration curves by executing the script PyCharMuxGui.py in the PyCharMux folder
 go to the bottom of the GUI and load configuration file "ConfigDCsweep-256gfet-v4", change the path and file name, tune the voltage sweep parameters and click "Start"
