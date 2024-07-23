@@ -24,4 +24,4 @@ go to the bottom of the GUI and load configuration file "ConfigDCsweep-256gfet-v
 Launch the GUI for neural data acquisition by executing the script PyTMAcqGUI.py in the PyTimeMux-master folder
 go to the bottom of the GUI and load configuration file "TDM-ACDC-256_v4". change the path and file name, tune bias conditions and click "Start". You can also select the channels you want to acquire from and the channels you want to visualize on real time. The displayed signal is expressed in terms of drain to source current. 
 
-To calibrate the signals from current to the equivalent potential at the gate of the graphene transistors, 
+To calibrate the signals from current to the equivalent potential at the gate of the graphene transistors, run Calibrate-ExportBinary.py, pointing to the file path that you acquire (both the raw data and the current-voltage curves for calibration).
